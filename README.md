@@ -1,44 +1,42 @@
 # SVGFinder
 
 ## Live Demo
-
 👉 **[View Live Demo](https://svg-finder.vercel.app/)**
 
-## Overview
+--- 
 
+## Overview
 SVGFinder is a React-based developer tool that lets you **search, preview, customize, and export** SVG icons from the Iconify API. It also includes a **Favorites** system so you can save icons you use often.
 
+--- 
+
 ## ✨ Features
-
-- 🔍 **Icon Search**  
-  Search thousands of icons by keywords like `star`, `home`, `weather`, etc.
-
-- 🖼️ **Live Preview**  
-  Click **View** on any icon to open a modal with a large preview.
-
+- 🔍 **Icon Search:** Search thousands of icons by keywords like `star`, `home`, `weather`, etc.
+- 🖼️ **Live Preview:** Click **View** on any icon to open a modal with a large preview.
 - 🎨 **Color & Size Customization**  
   - Change icon color using a native color picker.  
   - Adjust icon size with a range slider.  
   - The SVG code updates instantly with your chosen color and size.
 
-- 📋 **One‑Click Copy**  
-  Copy the full `<svg>...</svg>` markup to your clipboard with a single button.
+- 📋 **One‑Click Copy:** Copy the full `<svg>...</svg>` markup to your clipboard with a single button.
 
 - ❤️ **Favorites (LocalStorage)**  
   - Mark icons as favorites using the heart button on each card.  
   - Favorites are stored in `localStorage`, so they **persist** across page reloads.  
   - Switch between **Search** and **My Favourites** tabs.
 
-- 🧭 **Responsive UI**  
-  Custom layout and modal styling for both desktop and mobile screens.
+- 🧭 **Responsive UI:** Custom layout and modal styling for both desktop and mobile screens.
+
+--- 
 
 ## 🛠️ Tech Stack
-
-- **React** (Vite or CRA, depending on your setup)
+- **React** (Vite)
 - **Axios** for API calls
 - **Iconify API** for SVG icons  
 - **Lucide-react** for the heart icon
-- Plain **CSS** for styling (no UI framework)
+- **CSS** for styling 
+
+--- 
 
 ## Project Structure
 
@@ -63,8 +61,10 @@ SVGFinder/
 ├── vite.config.js
 └── .gitignore
 
-## 🔍 Features in detailed
+```
+--- 
 
+## 🔍 Features in detailed
 ### 1. Smart Icon Search
 - Shows:
   - A friendly prompt before first search.
@@ -98,16 +98,18 @@ SVGFinder/
 - Modal and controls are sized for touch on mobile.
 - Uses clear contrast and simple typography for readability in dark mode.
 
-## Deployment
+--- 
 
+## Deployment
 The app is deployed on **Vercel**.
 
 1. Push code to GitHub main branch
 2. Vercel automatically detects changes
 3. App rebuilds and deploys within seconds
 
-## 🚧 Future Enhancements
+--- 
 
+## 🚧 Future Enhancements
 These are ideas planned or suitable for a future version:
 
 1. **Copy as React Component**
@@ -135,19 +137,21 @@ These are ideas planned or suitable for a future version:
    - More detailed error messages when the Iconify API is unreachable or rate-limited.
    - Retry option or fallback suggestions.
 
+--- 
 
 ## Acknowledgments
-
 * Icons provided by **Iconify**.
 * Heart icon from **lucide-react**.
 
-## Author
+--- 
 
+## Author
 **Teja Janga**
 * GitHub: [@Teja-Janga](https://github.com/Teja-Janga)
 
-## 📄 License
+--- 
 
+## 📄 License
 This project is for learning and portfolio purposes.
 You are free to fork and experiment with it. For any serious reuse, please credit the original author.
 
